@@ -1,0 +1,16 @@
+.cardsw {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-flow: row;
+  }
+
+  .cardsd{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .cards{
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+  grid-gap: 10px;
+  }
