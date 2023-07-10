@@ -1,0 +1,32 @@
+.why-section {
+    padding: 20px 0;
+}
+
+.section-header {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 50em;
+}
+
+.left-paragraph {
+    flex: 1;
+    margin-right: 40px;
+}
+
+.right-image {
+    flex: 1;
+    text-align: center;
+}
+
+.right-image img {
+    max-width: 100%;
+    height: auto;
+}

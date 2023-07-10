@@ -5,8 +5,9 @@ import { Link } from 'react-router-dom';
 
 function Products() {
   return (
-    <div><Cards />
-    <Link to="/home">Go home</Link>
+    <div>
+      <Cards />
+      <Link to="/home">Go home</Link>
     </div>
   );
 }

@@ -1,12 +1,30 @@
-import logo from './logo.svg';
 import { Link } from 'react-router-dom';
+import './Home.css';
+import HomeHeader from './HomeHeader.jsx';
+import HomeWhy from './HomeWhy.jsx';
+import HomeProducts from './HomeProducts.jsx';
 
 function Home() {
   return (
     <div>
-      <h1>Welcome to the Homepage</h1>
-      <p>This is the main page of your website.</p>
-      <Link to="/products">Go to products</Link>
+      
+      <div className="header">
+        <HomeHeader />
+      </div>
+
+      <div className="body">
+        <HomeWhy />
+        <HomeProducts />
+      </div>
+
+      <footer className="footer">
+        <div className="footer-content">
+          <span className="copyright">
+            &copy; {new Date().getFullYear()} Your Company Name
+          </span>
+        </div>
+      </footer>
+
     </div>
   );
 }

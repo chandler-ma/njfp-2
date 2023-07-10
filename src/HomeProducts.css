@@ -1,0 +1,46 @@
+.product-section {
+    padding: 40px 0;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.product-link {
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    border: 10px solid transparent;
+    transition: border-color 0.3s ease-in-out;
+    margin-right: 0.5em
+}
+
+.product-link:last-child {
+    margin-right: 0; /* Remove margin-right for the last product-link */
+  }
+
+.product-link:hover {
+    border-color: #1C72BB;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+}
+
+.product-name {
+    padding: 8px;
+    text-align: left;
+    background-color: #1C72BB;
+    color: white;
+    font-size: 14px;
+}
